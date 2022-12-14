@@ -21,5 +21,4 @@ We will assess the efficacy of our targeted interventions by re-administering th
 See some examples below of the materials we are currently developing:
 
 
-![strawberry hill](https://raw.githubusercontent.com/pinheirochagas/ggtc/master/assets/strawberry_hill.png)
-
+<img src="https://raw.githubusercontent.com/pinheirochagas/ggtc/master/assets/strawberry_hill.png" width="800" class="center">
