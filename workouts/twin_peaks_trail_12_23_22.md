@@ -12,6 +12,6 @@ Join Ambassador **Pedro** for a social ***no-drop run*** to ***Twin Peaks*** via
 
 **Pedro's phone 650 515 8780**.
 
-<img src="https://raw.githubusercontent.com/pinheirochagas/ggtc/master/assets/a-team_pedro.jpg" width="800" class="center">
+<img src="https://raw.githubusercontent.com/pinheirochagas/ggtc/master/assets/twin_peaks_trail.png" width="800" class="center">
 
 ***Please register, so we can keep track of the attendance!*** 
