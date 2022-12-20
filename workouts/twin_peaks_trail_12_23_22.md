@@ -1,15 +1,17 @@
 
-## Twin Peaks trail
-Join Ambassador **Pedro** for a ***social-no-drop run*** to beautiful [**Strawbery Hill**](https://www.google.com/maps/place/Strawberry+Hill/@37.7686398,-122.4753199,15z/data=!4m2!3m1!1s0x0:0xdf1d5cc85d807f52?sa=X&ved=2ahUKEwjM5vOa2Pn7AhXiOn0KHSNfC3YQ_BJ6BAh_EAg) at the Golden Gate Park. We'll finish at [The Mill](https://www.google.com/maps/place/The+Mill/@37.7750861,-122.4397246,18.2z/data=!4m8!1m2!2m1!1spanhandle!3m4!1s0x0:0x185a61a92a363ce8!8m2!3d37.7764861!4d-122.4378944) for coffee and pastry. 
+## Twin Peaks Trails
+Join Ambassador **Pedro** for a social ***no-drop run*** to ***Twin Peaks*** via some hidden trails. We'll finish at [Flywheel](https://www.google.com/maps/place/Flywheel+Coffee+Roasters/@37.7696943,-122.4556823,17z/data=!3m1!4b1!4m5!3m4!1s0x808587df6abda975:0xda8563a883685178!8m2!3d37.7696901!4d-122.4534936) for coffee and pastry. 
 
-* Distance: 7 miles.
-* Elevation gain: 
-* Starting time: 7am
+* Distance: 7 miles
+* Elevation gain: 950 ft.
+* Starting time: 7am 
 * Meeting point: [Conservatory of Flowers](https://www.google.com/maps/place/Conservatory+of+Flowers/@37.7726187,-122.4602558,15z/data=!4m2!3m1!1s0x0:0x4cfc5cb588e07c1f?sa=X&ved=2ahUKEwib5N77ioX8AhUoRTABHeXHBvQQ_BJ6BQiSARAI). 
 * [Route](https://www.strava.com/routes/3039425934546460336)
 
-Contact Pedro 6505158780 if you have any questions or are running late. 
+*(Don't be intimidated by the hills, we will make sure that the pace is adjusted to the group)*
 
-<img src="https://raw.githubusercontent.com/pinheirochagas/ggtc/master/assets/twin_peaks_trail.png" width="800" class="center">
+**Pedro's phone 650 515 8780**.
+
+<img src="https://raw.githubusercontent.com/pinheirochagas/ggtc/master/assets/a-team_pedro.jpg" width="800" class="center">
 
 ***Please register, so we can keep track of the attendance!*** 
