@@ -55,7 +55,7 @@ for mi = 1:length(metrics_interest)
     end
     data_summary = data_summary(data_summary.metric>0,:);
 
-    figure('units', 'normalized', 'outerposition', [0 0 .3 .75]) % [0 0 .6 .3]
+%     figure('units', 'normalized', 'outerposition', [0 0 .3 .75]) % [0 0 .6 .3]
     min_clim = prctile(data_summary.metric,5);
     max_clim = prctile(data_summary.metric,95);
 
@@ -77,8 +77,10 @@ for mi = 1:length(metrics_interest)
     axis off
     title(metric_interest)
 
-    save2pdf([metric_interest, '.pdf'], gcf, 600)
+%     save2pdf([metric_interest, '.pdf'], gcf, 600)
     close
+    max_vals(mi) = max(data_summary.metric)
+
 end
 
 
