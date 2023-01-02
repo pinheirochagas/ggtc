@@ -1,4 +1,4 @@
-<img align="center" src='/Users/pinheirochagas/Pedro/Stanford/code/ggtc/assets/hh_pr_day.png'  width="500"></img>
+<img align="center" src='https://github.com/pinheirochagas/ggtc/blob/master/assets/hh_pr_day_ml-01.png'  width="500"></img>
 ###### *Logo by ML Howell & Pedro Pinheiro-Chagas*
 <p>
 </p>
@@ -18,6 +18,10 @@
 </p>
 
 *There will be Champagne waiting for you!*
+
+
+<img align="center" src='https://github.com/pinheirochagas/ggtc/blob/master/assets/hh_instructions-01.png'  width="500"></img>
+
 
 Bring: watts, water, electrolytes, carbs, sunscreen, cash, credit cards, ID, material to change a flat tire, helmet and smiles!
 
