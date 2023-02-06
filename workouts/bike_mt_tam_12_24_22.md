@@ -1,17 +1,22 @@
 
-## Twin Peaks Trails
-Join Ambassador **Pedro** for a social ***no-drop run*** to ***Twin Peaks*** via some hidden trails. We'll finish at [Flywheel](https://www.google.com/maps/place/Flywheel+Coffee+Roasters/@37.7696943,-122.4556823,17z/data=!3m1!4b1!4m5!3m4!1s0x808587df6abda975:0xda8563a883685178!8m2!3d37.7696901!4d-122.4534936) for coffee and pastry. 
 
-* Distance: 7 miles
-* Elevation gain: 950 ft.
-* Starting time: 7am 
-* Meeting point: [Conservatory of Flowers](https://www.google.com/maps/place/Conservatory+of+Flowers/@37.7726187,-122.4602558,15z/data=!4m2!3m1!1s0x0:0x4cfc5cb588e07c1f?sa=X&ved=2ahUKEwib5N77ioX8AhUoRTABHeXHBvQQ_BJ6BQiSARAI). 
-* [Route](https://www.strava.com/routes/3039425934546460336)
+Join Ambassador **Pedro** and **Soledad** for a beautiful ride ***ride*** to ***Mt. Tam*** 
 
-*(Don't be intimidated by the hills, we will make sure that the pace is adjusted to the group)*
+* Distance: 55 miles
+* Elevation gain: 5,000 ft (hilly)
+* Starting time: 9:30am 
+* Meeting point: [Golden Gate Bridge Welcome Center](https://www.google.com/maps?q=golden+gate+bridge+welcome+center&rlz=1C5GCEM_enUS1001US1001&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjRybeciYz8AhUUJkQIHaGYBFQQ_AUoAXoECAEQAw). 
+* [Strava Route](https://www.strava.com/routes/2929525879575523102)
+* Difficulty Level: 4/5 intermediate/advanced **[no-drop]**
+
+Bring: Water bottles, Electrolytes, min 400g of carbs, Sunscreen, Cash, Credit Cards, ID, material to change a flat tire, Helmet and Smiles!
 
 **Pedro's phone 650 515 8780**.
 
-<img src="https://raw.githubusercontent.com/pinheirochagas/ggtc/master/assets/twin_peaks_trail.png" width="800" class="center">
+<img src="https://raw.githubusercontent.com/pinheirochagas/ggtc/master/assets/mt_tam.png" width="800" class="center">
+
+Cyclists will Cross the bridge, descend into Sausalito, meander through Mill Valley, climb up to the Famous Four Corners, turn right as we head to Pantoll campground. Then up up up and away we go to the top of the East peak of Tam. Then we'll bob up and down along the Seven Sisters, fly down past Apline Dam and up n over back to Fairfax. 
 
 ***Please register, so we can keep track of the attendance!*** 
+
+
