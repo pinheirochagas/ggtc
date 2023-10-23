@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D GPX Viewer</title>
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.96/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.96/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  <style>
+    #cesiumContainer {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <script>
+    // Load the Cesium viewer
+    const viewer = new Cesium.Viewer('cesiumContainer', {
+      terrainProvider: Cesium.createWorldTerrain()
+    });
+
+    // Define a function to load GPX data and convert it to CZML format
+    function loadGPXToCZML(gpxFile, color) {
+      return new Promise((resolve) => {
+        fetch(gpxFile)
+          .then((response) => response.text())
+          .then((gpxData) => {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(gpxData, 'text/xml');
+            const points = [];
+            const trkpts = xmlDoc.getElementsByTagName('trkpt');
+            for (let i = 0; i < trkpts.length; i++) {
+              const lat = parseFloat(trkpts[i].getAttribute('lat'));
+              const lon = parseFloat(trkpts[i].getAttribute('lon'));
+              const ele = parseFloat(trkpts[i].getElementsByTagName('ele')[0].textContent);
+              points.push(lon, lat, ele);
+            }
+            const czml = {
+              id: 'path',
+              polyline: {
+                positions: {
+                  cartographicDegrees: points
+                },
+                width: 4,
+                material: {
+                  solidColor: {
+                    color: Cesium.Color.fromCssColorString(color)
+                  }
+                }
+              }
+            };
+            resolve(czml);
+          });
+      });
+    }
+
+    // Load and visualize the GPX files
+    const gpxFile1 = '/Users/pinheirochagas/Downloads/mt_tam.gpx';
+    const gpxFile2 = '/Users/pinheirochagas/Downloads/lighthouse.gpx';
+    Promise.all([
+      loadGPXToCZML(gpxFile1, '#FF0000'), // Red
+      loadGPXToCZML(gpxFile2, '#00FF00')  // Green
+    ]).then((czmlData) => {
+      viewer.dataSources.add(Cesium.CzmlDataSource.load(czmlData));
+      viewer.zoomTo(viewer.entities);
+    });
+  </script>
+</body>
+</html>

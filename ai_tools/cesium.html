@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GPX Route in 3D</title>
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.86/Build/Cesium/Cesium.js"></script>
+  <style>
+    @import url(https://cesium.com/downloads/cesiumjs/releases/1.86/Build/Cesium/Widgets/widgets.css);
+    html, body, #cesiumContainer {
+      width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <script>
+    // Initialize the Cesium Viewer
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4YWJiYjUwZS0xMjNhLTQ4OTUtYjVmMS1hNWI5NzU4ZGNiMDYiLCJpZCI6MTM1NTE1LCJpYXQiOjE2ODI0MzE1OTB9.pwxf00nQJ1BMaG8wXjn9iy6lQXKdKPN7BFERsIVdHno';
+    const viewer = new Cesium.Viewer('cesiumContainer', {
+      terrainProvider: Cesium.createWorldTerrain()
+    });
+
+    // Convert GPX to CZML
+    function gpxToCzml(gpx) {
+      const czml = [];
+      const track = {
+        id: "gpxTrack",
+        polyline: {
+          positions: {
+            cartographicDegrees: []
+          },
+          material: {
+            solidColor: {
+              color: {
+                rgba: [0, 0, 255, 255] // Blue color for the route
+              }
+            }
+          },
+          width: 4
+        }
+      };
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(gpx, "text/xml");
+      const points = xmlDoc.getElementsByTagName("trkpt");
+      for (let i = 0; i < points.length; i++) {
+        const lat = parseFloat(points[i].getAttribute("lat"));
+        const lon = parseFloat(points[i].getAttribute("lon"));
+        track.polyline.positions.cartographicDegrees.push(lon, lat, 0);
+      }
+      czml.push(track);
+      return czml;
+    }
+
+    // Load the GPX file and convert to CZML
+    fetch('/Users/pinheirochagas/Downloads/mt_tam.gpx')
+      .then(response => response.text())
+      .then(gpx => {
+        const czml = gpxToCzml(gpx);
+        viewer.dataSources.add(Cesium.CzmlDataSource.load(czml))
+          .then(dataSource => {
+            viewer.zoomTo(dataSource);
+          });
+      });
+  </script>
+</body>
+</html>
