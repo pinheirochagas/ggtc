@@ -94,7 +94,7 @@ plt.savefig('density_scatter.pdf', dpi=600, bbox_inches='tight')
 
 
 # %%
-file = '/Users/pinheirochagas/Downloads/8718041686.fit'
+file = '/Users/pinheirochagas/Downloads/dip_tam.fit'
 conv = Converter()
 df_lap, df_point = conv.fit_to_dataframes(fname=file)
 
@@ -110,6 +110,12 @@ plt.plot(df_point['enhanced_altitude'])
 fig = plt.figure(figsize=(20,10))
 ax = fig.add_subplot(111, projection='3d')
 ax.plot(df_point['longitude'], df_point['latitude'], df_point['enhanced_altitude'])
+
+#%% plot longitude, latitude and enhanced altitude in 3d dynamic plot
+
+
+
+
 
 # %%
 # plot longitude, latitude and enhanced altitude in 3d interactive plotly

@@ -54,8 +54,3 @@ def convert_fit_to_csv(fit_files_directory, output_csv_directory):
                     writer.writerow(record_data)
 
             print(file + " has been converted to CSV.")
-
-# Usage
-fit_files_directory = 'path/to/fit/files'  # Update with the path to your FIT files directory
-output_csv_directory = 'path/to/output/csv'  # Update with the path to your output CSV directory
-convert_fit_to_csv(fit_files_directory, output_csv_directory)
